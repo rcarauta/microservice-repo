@@ -1,0 +1,9 @@
+spring:
+  application:
+  datasource:
+    username: teste
+    url: jdbc:mysql://localhost:3306/fornecedor
+    
+  jpa:
+    hibernate:
+      ddl-auto: create
